@@ -105,6 +105,12 @@
   color: #bfb;
   font-size: small;
 }
+
+#side span {
+  color: #fff;
+  line-height: 30px;
+  font-size: small;
+}
 /* END:mainlayout */
 
 /* An entry in the store catalog */

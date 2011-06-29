@@ -6,6 +6,7 @@
   <%= stylesheet_link_tag "scaffold" %>
   <%= stylesheet_link_tag "depot", :media => "all" %>
 <!-- END:stylesheet -->
+  <%= javascript_include_tag "date.format" %>
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
 </head>
@@ -16,7 +17,7 @@
   </div>
   <div id="columns">
     <div id="side">
-      <span id="date"><%= Time.now().strftime("%B %d, %I:%M %p") %></span><br />
+      <span id="date"><%= Time.now().strftime("%B %d, %l:%M %p") %></span><br />
       <a href="http://www....">Home</a><br />
       <a href="http://www..../faq">Questions</a><br />
       <a href="http://www..../news">News</a><br />

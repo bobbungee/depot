@@ -1,6 +1,7 @@
 <h2>Your Pragmatic Cart</h2>
 <ul>
   <% @cart.line_items.each do |item| %>
-    <li><%= link_to item.product.title, product_path(item.product) %></li>
+    <li><%= item.quantity %> &times; <%= link_to item.product.title, 
+                                                 product_path(item.product) %></li>
   <% end %>
 </ul>

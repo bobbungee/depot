@@ -122,6 +122,7 @@
 #store  .entry {
   overflow: auto;
   margin-top: 1em;
+  padding: 10px;
   border-bottom: 1px dotted #77d;
 }
 
@@ -162,4 +163,8 @@
   color: #44a;
   font-weight: bold;
   margin-right: 2em;
+}
+
+#store .hover {
+  background-color: #FFFBC9;
 }
